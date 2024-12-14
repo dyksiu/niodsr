@@ -9,10 +9,17 @@ Our robot can be turtle from turtlesim packages. You can control the robot in 4 
 When program works, you can see actual robots coordinates. 
 
 ### Before use:
-- install turtlesim packages: sudo apt install ros-[ROS2_DISTRO]-turtlesim
+- install turtlesim packages:
+```
+sudo apt install ros-[ROS2_DISTRO]-turtlesim
+```
 - in each new window terminal you must activate ros2 environment with commands below:
-- source /opt/ros/humble/setup.bash
-- source ~/ros2_ws/install/setup.bash
+```
+source /opt/ros/humble/setup.bash
+```
+```
+source ~/ros2_ws/install/setup.bash
+```
   
 ros2_ws is name of my workspace which contains all files of the project.
 
